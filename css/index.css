@@ -1,0 +1,19 @@
+#whole-body-div {
+    width: 1280px;
+}
+
+#menu-div {
+    float: left;
+    width: 300px;
+}
+
+#content-div {
+    width: 880px;
+}
+
+@media screen and (max-width: 600px) {
+    #menu-div, #content-div {
+        width: 100%;
+    }
+}
+
