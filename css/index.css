@@ -1,5 +1,7 @@
 #whole-body-div {
     width: 1280px;
+    margin: 20px;
+    padding: 20px;
 }
 
 #menu-div {
@@ -8,7 +10,7 @@
 }
 
 #content-div {
-    width: 880px;
+    width: 800px;
 }
 
 @media screen and (max-width: 600px) {
