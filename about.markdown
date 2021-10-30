@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am currently a postdoctoral fellow in Columbia University's Psychiatry
+department. I am doubly lucky to be working with the wonderful people in the
+[Molecular Imaging and Neuropathology Division](https://www.columbiapsychiatry.org/research/research-areas/molecular-imaging-and-neuropathology)
+at the New York State Psychiatric Institute.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've published [some work](https://scholar.google.com/citations?user=Z31g-XQAAAAJ&hl=en), with more to come.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I rarely tweet, but follow other scientists and occasionally post a picture of cool fungi
+as [@mightypile](https://twitter.com/mightypile).
