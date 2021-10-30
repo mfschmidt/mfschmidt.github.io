@@ -7,8 +7,22 @@
 
 #menu-div {
     grid-column: 1;
+    padding: 20px;
+    font-family: 'Merriweather', serif;
 }
 
 #content-div {
     grid-column: 2;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
 }
+
+.snippet {
+    font-family: 'Ubuntu Mono', monospace;
+}
+@media screen and (max-width: 600px) {
+    #menu-div, #content-div {
+        width: 100%;
+    }
+}
+
