@@ -1,20 +1,14 @@
 #whole-body-div {
-    width: 1280px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
     margin: auto;
 }
 
 #menu-div {
-    float: left;
-    width: 300px;
+    grid-column: 1;
 }
 
 #content-div {
-    width: 800px;
+    grid-column: 2;
 }
-
-@media screen and (max-width: 600px) {
-    #menu-div, #content-div {
-        width: 100%;
-    }
-}
-
