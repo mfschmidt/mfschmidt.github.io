@@ -4,5 +4,3 @@
 
 layout: home
 ---
-
-I just created github pages. Moving content over soon.
