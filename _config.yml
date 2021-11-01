@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stuff Mike Shares
+title: Some Stuff Mike Shares
 email: mikeschmidt@schmidtgracen.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sometimes I share things I find useful. This is where to find them.
@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mfschmidt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mightypile
 github_username:  mfschmidt
+stackexchange_username: mightypile
 
 # Build settings
 theme: minima
