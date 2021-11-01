@@ -1,0 +1,32 @@
+/**
+ * Some style helpers for specific table instances
+ */
+
+table#pre-proc-fmri tr.top-title {
+  background-color: #cccccc;
+}
+table#pre-proc-fmri tr.top-title th {
+  background-color: inherit;
+}
+
+table#pre-proc-fmri tr.step-title {
+  background-color: #eeeeee;
+  border-top: solid #000000;
+}
+table#pre-proc-fmri tr.step-title td p {
+  font-weight: bold;
+  margin: 0;
+}
+
+table#pre-proc-fmri tr.step-items {
+  background-color: #ffffff;
+}
+
+table#pre-proc-fmri tr.step-notes {
+  background-color: #ffffff;
+}
+table#pre-proc-fmri tr.step-notes td p {
+  font-weight: lighter;
+  margin: 20px;
+}
+
