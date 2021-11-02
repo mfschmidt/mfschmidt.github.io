@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mfschmidt.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mightypile
 github_username:  mfschmidt
+stackexchange_userid: "2195489"
 stackexchange_username: mightypile
 
 # Build settings
