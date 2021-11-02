@@ -15,8 +15,8 @@ extracting important signals from them. Most days, I even get to read others' re
 to add breadth and depth to my understanding of how brains work. My enormous gratitude goes
 out to far too many people to name for their past, present, and future assistance.
 
-I've tried to be useful by publishing [some work](https://scholar.google.com/citations?user=Z31g-XQAAAAJ&hl=en).
-I help where I can on [StackExchange](https://stackexchange.com/users/2195489/mightypile).
+I've tried to be useful by publishing [<i class="ai ai-google-scholar ai"></i> some work](https://scholar.google.com/citations?user=Z31g-XQAAAAJ&hl=en).
+I help where I can on [<svg class="svg-icon"><use xlink:href="#stackexchange"></use></svg> StackExchange](https://stackexchange.com/users/2195489/mightypile).
 I share code I've written on [GitHub](https://github.com/mfschmidt).
 I rarely tweet, but mostly follow other scientists and keep up with new developments
 as [@mightypile](https://twitter.com/mightypile).
