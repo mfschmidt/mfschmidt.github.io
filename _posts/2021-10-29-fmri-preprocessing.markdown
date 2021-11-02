@@ -187,5 +187,8 @@ Many steps are available to clean functional MRI data prior to analysis. All are
 
 </table>
 
+During later analyses, see [fMRIPrep's take](https://fmriprep.org/en/stable/outputs.html#confounds)
+and [the 2007 Behzadi CompCor paper](https://doi.org/10.1016/j.neuroimage.2007.04.042) regarding confounds.
+
 Additions, subtractions, and any corrections are appreciated.
 [Email Mike](mailto:mikeschmidt@schmidtgracen.com) or `git clone https://github.com/mfschmidt/mfschmidt.github.io.git`, edit, and submit a pull request.
