@@ -30,8 +30,10 @@ Many steps are available to clean functional MRI data prior to analysis. All are
         <td colspan="4"><p>MR gradient nonlinearity induced distortions</p></td>
     </tr>
     <tr class="step-items">
-        <td></td>
-        <td>gradient_nonlin_unwarp</td>
+        <td><i style="color: #640000" class="far fa-square"></i><br />
+            not available</td>
+        <td><i style="color: #006400" class="far fa-check-square"></i><br />
+            gradient_nonlin_unwarp</td>
         <td></td>
         <td></td>
     </tr>
@@ -42,8 +44,10 @@ Many steps are available to clean functional MRI data prior to analysis. All are
                 magnetic field between the center and the periphery can be
                 corrected with a gradient coefficient file from the scanner.
                 This is less important with GE scanners, particular with
-                centered participant placement.
+                centered participant placement. For this reason, the HCP gradunwarp
+                tool only supports Siemens scanners, and has no option for GE.
             </p>
+            <p>See a great description in a <a href="https://github.com/nipreps/fmriprep/issues/1550#issuecomment-474542113">github comment</a>.</p>
         </td>
     </tr>
 
