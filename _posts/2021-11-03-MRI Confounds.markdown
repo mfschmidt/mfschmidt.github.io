@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Confounds to clean fMRI"
+date:   2021-11-03 21:11:12 -0400
+---
 # Using Confounds to Clean fMRI Data
 
 ## Means
