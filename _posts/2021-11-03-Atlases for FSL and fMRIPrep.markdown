@@ -90,5 +90,5 @@ Templateflow is also missing all cortical HOCPAL probabilistic atlases, so FSL w
 But this sets things up as far as we can take them for now. Most importantly, scripts looking for atlases in
 $FSLDIR/data/atlases/ will be able to find them and extract ROIs in the appropriate spaces.
 
-This process has was done on all NYSPI jjm nodes with FSL on Wednesday, Nov 3, 2021,
+This process was done on all NYSPI jjm nodes with FSL on Wednesday, Nov 3, 2021,
 so they all contain the MNI152NLin2009cAsym atlases.
