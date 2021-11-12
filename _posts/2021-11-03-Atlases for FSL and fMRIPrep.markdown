@@ -21,7 +21,7 @@ If you run this, any missing files will raise an error, but won't hurt anything.
         FILE=tpl-MNI152NLin2009cAsym_res-0${RES}_T1w.nii.gz
         wget ${S3_URL}/${FILE} -O ~/Downloads/${FILE}
         sudo cp ~/Downloads/${FILE} $FSLDIR/data/standard/MNI152NLin2009cAsym_T1_${RES}mm.nii.gz
-        for CS in HOSPA HOCPAL; do
+        for CS in HOSPA HOCPA HOCPAL; do
             FILE=tpl-MNI152NLin2009cAsym_res-0${RES}_atlas-${CS}_probseg.nii.gz
             wget ${S3_URL}/${FILE} -O ~/Downloads/${FILE}
             sudo cp ~/Downloads/${FILE} $FSLDIR/data/atlases/HarvardOxford/HarvardOxford-${CS}-prob-${RES}mm.nii.gz
@@ -40,6 +40,7 @@ When you're done, your FSL /data/ subdirectory should include these:
         HarvardOxford-{cort,sub}-maxprob-thr{0,25,50}-{1,2}mm.nii.gz  # 12 of these integer atlases
         HarvardOxford-{cort,sub}-prob-{1,2}mm.nii.gz                  # 4 of these probabilistic atlases
         HarvardOxford-HOSPA-maxprob-thr{0,25,50}-{1,2}mm.nii.gz       # 6 new
+        HarvardOxford-HOCPA-maxprob-thr{0,25,50}-{1,2}mm.nii.gz       # 6 new
         HarvardOxford-HOCPAL-maxprob-thr{0,25,50}-{1,2}mm.nii.gz      # 6 new
     $FSLDIR/data/standard/
         *                                                             # bunches of other templates
@@ -90,5 +91,5 @@ Templateflow is also missing all cortical HOCPAL probabilistic atlases, so FSL w
 But this sets things up as far as we can take them for now. Most importantly, scripts looking for atlases in
 $FSLDIR/data/atlases/ will be able to find them and extract ROIs in the appropriate spaces.
 
-This process was done on all NYSPI jjm nodes with FSL on Wednesday, Nov 3, 2021,
+This process was redone on all NYSPI jjm nodes with FSL on Wednesday, Nov 12, 2021,
 so they all contain the MNI152NLin2009cAsym atlases.
