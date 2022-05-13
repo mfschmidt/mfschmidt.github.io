@@ -16,6 +16,7 @@ You can "install" these atlases into your FSL installation by copying them to FS
 This is at $FSLDIR/data/ (For me, and by default, /usr/local/fsl/data/). You may need sudo or admin permissions.
 If you run this, any missing files will raise an error, but won't hurt anything.
 
+    mkdir -p ~/Downloads
     S3_URL=https://templateflow.s3.amazonaws.com/tpl-MNI152NLin2009cAsym
     for RES in 1 2; do
         FILE=tpl-MNI152NLin2009cAsym_res-0${RES}_T1w.nii.gz
